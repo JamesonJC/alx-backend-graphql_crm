@@ -98,6 +98,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+GRAPHENE = {
+  'SCHEMA': 'alx_backend_graphql_crm.schema.schema',
+}
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
